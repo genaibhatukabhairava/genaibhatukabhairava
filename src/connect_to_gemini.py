@@ -7,7 +7,7 @@ import os
 
 # Replace with your own API key
 # Get the google API key: https://aistudio.google.com/app/apikey
-# Create a new system environmental variable with name GOOGLE-API-KEY-VID and value paste the google API key
+# Create a new system environmental variable with name GOOGLE-API-KEY-VID and in the value paste the google API key
 google_api_key = os.getenv('GOOGLE-API-KEY-VID')
 genai.configure(api_key=google_api_key)
 # Initialize connection to Gemini
